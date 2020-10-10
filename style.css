@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+header{
+    width: 100%;
+    height: 6rem;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2.6rem;
+    color: rgb(38, 38, 38);
+}
+h2{
+    font-size: 2.3rem;
+}
+.container{
+    background-color: rgb(33, 33, 33);
+   text-align: center;
+   padding: 2rem 0;
+   height: 340px;
+   color: #ffffff;
+}
+.score{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1.3rem;
+}
+.choises{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.choise{
+    margin-left: 4rem;
+    cursor: pointer;
+}
+.choise:hover{
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.choise:first-child{
+    margin-left: 0;
+}
+button{
+    background: gray;
+    outline: none;
+    border: none;
+    padding: .7rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: none;
+}
+/* modal  */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.5);
+}
+.modal-content{
+    background: #ffffff;
+    text-align: center;
+    margin: 10% auto;
+    width: 350px;
+    border-radius: 10px;
+    padding: 3rem 0;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+    animation: modalopen 1s;
+}
+.modal-content p{
+    font-size: 1.2rem;
+}
+.modal-content i{
+    color: black;
+    position: relative;
+    top: -33px;
+    right: -40%;
+    font-size: 22px;
+}
+.copy{
+    width: 100%;
+    background: rgba(100, 98, 98, 0.268);
+    text-align: center;
+    margin-top: 10px;
+    padding: 1rem 0;
+}
+@keyframes modalopen{
+    form{
+      opacity: 0;
+    }
+    to{
+     opacity: 1;
+    }
+}
+@media(max-width:395px){
+    .choise{
+        margin-left:1rem;
+    }
+    .choise:first-child{
+        margin-left: 0;
+    }
+    .container{
+        height: auto;
+    }
+}
