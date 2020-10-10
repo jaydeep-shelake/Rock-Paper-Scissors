@@ -3,7 +3,7 @@
 </div>
 <br>
 
-> This webapplication is made basically made for fun,rock paper scissors is an iconic games form 90's kid,which I've tried to built with javascript
+> This webapplication is  basically made for fun,rock paper scissors is an iconic games form 90's kids,which I've tried to built with javascript
 
 
 ## ⚙️ Detailed Functionality
