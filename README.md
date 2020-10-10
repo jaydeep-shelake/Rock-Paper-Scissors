@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100px" src="https://www.google.com/search?q=rock+paper+scissors+hand+png+icons&safe=active&sxsrf=ALeKk00DG87Qi3V_0EcqQdyH1FQLXA3mng:1602317369001&tbm=isch&source=iu&ictx=1&fir=W4A7iEClgjmjlM%252CLS1JXpmvwsI-HM%252C_&vet=1&usg=AI4_-kRhw_jZ-OkDLVFP4J7KzjQu74JoGg&sa=X&ved=2ahUKEwif2eKsyansAhUVOSsKHVWfChwQ9QF6BAgKEB0#imgrc=W4A7iEClgjmjlM"/>
+  <img width="100px" src="https://github.com/jaydeep-shelake/Rock-Paper-Scissors/blob/master/retro-offset-rock-paper-scissors-icons.webp"/>
 </div>
 <br>
 
