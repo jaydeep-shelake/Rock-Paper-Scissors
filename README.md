@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100px" src="https://github.com/jaydeep-shelake/Rock-Paper-Scissors/blob/master/retro-offset-rock-paper-scissors-icons.webp"/>
+  <img width="300px" src="https://github.com/jaydeep-shelake/Rock-Paper-Scissors/blob/master/retro-offset-rock-paper-scissors-icons.webp"/>
 </div>
 <br>
 
